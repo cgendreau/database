@@ -14,8 +14,8 @@ recipe 'database::snapshot', 'Locks tables and freezes XFS filesystem for replic
 
 depends 'mysql', '>= 5.0.0'
 #depends 'postgresql', '>= 1.0.0'
-depends 'aws'
-depends 'xfs'
+#depends 'aws'
+#depends 'xfs'
 depends 'mysql-chef_gem'
 
 %w(debian ubuntu centos suse fedora redhat scientific amazon).each do |os|
